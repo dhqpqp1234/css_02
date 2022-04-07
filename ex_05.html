@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+    	
+    	<style>
+    		.div-all {
+    			width: 200px;
+    			height: 100px;
+    			background-color: #dddddd;
+    			border: 1px solid #000000;
+    			border-radius: 5px;
+    		}
+    		
+    		.div-lich {
+    			width: 200px;
+    			height: 100px;
+    			background-color: #dddddd;
+    			border: 1px solid #000000;
+    		
+    			border-top-left-radius: 10px;
+    			border-top-right-radius: 20px;
+    			border-bottom-right-radius: 30px;
+    			border-bottom-left-radius: 40px;
+    		}
+    		
+    		.div-each-all{
+    			width: 200px;
+    			height: 100px;
+    			background-color: #dddddd;
+    			border: 1px solid #000000;
+    			
+    			border-radius: 10px 20px 30px 40px; /* 시계방향 */
+    		}
+    		
+    		.div-grey{
+    	
+    			background-color: #808080;
+    		
+    			
+    		}
+    		
+    		.div-red{
+    			
+    			background-color: pink;
+    		
+    		}
+    		
+    		.div-blue{
+    			background-color: #0000ff;
+    			
+    		}
+    		
+    		.btn{
+    			
+    			text-align: center;
+    			border: 1px solid #000000;
+    			border-radius: 10px;
+    		}
+    		.btb-la{
+    			width: 150px;
+    		}
+    		.btb-sm{
+    			width: 50px;
+    		}
+    	</style>
+    	
+    </head>
+
+    <body>
+
+        <div class="div-all">라운드 한번에 저장</div>
+        <div class="div-lich">라운드 각가 저장</div>
+        <div class="div-each-all">라운드 각각 저장2</div>
+      
+		<br>
+		<button class="div-gray">저장버튼</button>
+		<a class="div-grey" href="https://www.naver.com">네이버</a>
+		 <br>
+       <div class="btn div-grey btn-la">저장버튼</div>
+       <div class="btn div-red btn-la">삭제버튼</div>
+       <div class="btn div-blue btn-sm">수정버튼</div>
+    </body>
+
+</html>
