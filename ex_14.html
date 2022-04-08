@@ -6,38 +6,38 @@
         <title>스타일시트</title>
         <!-- 스타일시트자리 -->
     	<style>
-    		
-    		
     		li{
-    			float: left;
-    			list-style-type: none;
-    		    border : 1px solid #000000; 
-    			margin: 0px 10px 0px 10px;
-    			
-    			background-image : url("./img/star.jpg")
-    			
-    			}
-    			li{
-    			background-repeat: no-repeat;
-    			background-size: 13px  ;
-    			background-position: left center;
-    			
-    			border-right: solid 3px;
-    			padding: 0px 0px 0px 12px;
-    			}
+    		list-style-type: none;
+    		background-image:url(./img/star.jpg);
+    		background-repeat: no-repeat;
+    		background-size: 11px 11px;
+    		background-position: left center;
+    		
+    		
+    		padding: 0px 20px 0px 11px;
+    		margin: 0px 20px 0px 0px;
+    		float: left;
+    		
+    		border-right: 1px solid #000000;			
+    		}
+    		li.last{
+    			border-right: none;
+    		}
     	</style>
+    	
     
     </head>
 
     <body>
-		<ol>
+
+        <ol>
 			<li >메뉴1</li>
 			<li >메뉴2</li>
 			<li >메뉴3</li>
 			<li >메뉴4</li>
-			<li >메뉴5</li>
+			<li class="last">메뉴5</li>
 		</ol>
-       
+
     </body>
 
 </html>
